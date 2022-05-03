@@ -1,0 +1,19 @@
+.bdr{
+    border: 5px solid red;
+}
+.bg{
+    background-color: rgb(200, 243, 114);
+}
+.div{
+    width: 100px;
+    height: 100px;
+}
+.text-style{
+    font-style:italic
+  }
+  .text-success{
+    color:green;
+  }
+  .text-error{
+color:red;
+  }

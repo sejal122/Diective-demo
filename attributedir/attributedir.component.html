@@ -1,0 +1,17 @@
+<p>Attributedir Directive Demo !</p>
+
+
+    <div [ngClass]="{bdr:true,bg:true}"> Hi This is just For Demo   </div>
+
+    
+    <div [ngStyle]="{'color':str}"> Hi This is just For Demo   </div>
+<h1 class="text-style">SEJAL GUJAR</h1>
+<h3 [class.text-error]="hasError">haserror</h3>
+<h1 [class]="successClass">is success</h1>
+<h1 [class]="successClass" class="text-style">is success</h1>
+<h3 [ngClass]="messages">messgaes class property binding</h3>
+
+<ul>
+    <li style="display: inline-flex; margin-left: 30px;" *ngFor="let color of mystyles"><button #btncolor (click)="changecolor(color)" style="padding: 20px;">{{color}}</button></li>
+</ul>
+<h3  [style.color]="mycolor">HI I AM STYLE AND EVENT BINDING</h3>
